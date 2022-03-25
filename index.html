@@ -30,6 +30,17 @@
       <p id="currentDay" class="lead"></p>
       <button id="saveBtn">Submit Changes Here!</button>
     </header>
+    <div class="time">
+      <h2 class="timeElements">9:00 AM</h2>
+      <h2 class="timeElements">10:00 AM</h2>
+      <h2 class="timeElements">11:00 AM</h2>
+      <h2 class="timeElements">12:00 PM</h2>
+      <h2 class="timeElements">1:00 PM</h2>
+      <h2 class="timeElements">2:00 PM</h2>
+      <h2 class="timeElements">3:00 PM</h2>
+      <h2 class="timeElements">4:00 PM</h2>
+      <h2 class="timeElements">5:00 PM</h2>
+    </div>
     <div class="container">
       <!-- Timeblocks go here -->
       <div class="row align-items-start">
@@ -50,39 +61,67 @@
         </div>
     </div>
     <div class="row">
-      <input class="col" id="events1" type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Monday" type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
     </div>
     <div class="row">
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
     </div>
     <div class="row">
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
     </div>
     <div class="row">
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col"  id="events" type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday" type="text" placeholder="Enter a event here!"></input>
     </div>
     <div class="row">
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col" id="events"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
+    </div>
+    <div class="row">
+      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
+    </div>
+    <div class="row">
+      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
+    </div>
+    <div class="row">
+      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
+    </div>
+    <div class="row">
+      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
+      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
+      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
