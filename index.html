@@ -29,6 +29,7 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
       <button id="saveBtn">Submit Changes Here!</button>
+      <button id="resetBtn">Reset Your Schedule Here!</button>
     </header>
     <div class="time">
       <h2 class="timeElements">9:00 AM</h2>
@@ -51,7 +52,7 @@
           Tuesday
         </div>
         <div class="col">
-          Wednsday
+          Wednesday
         </div>
         <div class="col">
           Thursday
@@ -60,69 +61,64 @@
           Friday
         </div>
     </div>
-    <div class="row">
-      <input class="col schedulerDays" id="Monday" type="text" placeholder="Enter a event here!" value=""></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!" value=""></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!" value=""></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!" value=""></input>
-      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!" value=""></input>
+
+    <!-- Time Blocks -->
+
+    <!-- 9:00 AM Block-->
+    <textarea id="9amMondayBox" class='Monday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="9amTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="9amWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="9amThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="9amFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <!-- 10:00 AM Block-->
+    <textarea id="10amMondayBox" class='Monday'placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="10amTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="10amWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="10amThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="10amFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <!--11:00 AM Block-->
+    <textarea id="11amMondayBox" class='Monday'placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="11amTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="11amWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="11amThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="11amFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <!--12:00 PM Block-->
+    <textarea id="12pmMondayBox" class='Monday'placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="12pmTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="12pmWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="12pmThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="12pmFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <!-- 1:00 PM Block -->
+    <textarea id="1pmMondayBox" class='Monday'placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="1pmTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="1pmWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="1pmThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="1pmFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <!-- 2:00 PM -->
+    <textarea id="2pmMondayBox" class='Monday'placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="2pmTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="2pmWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="2pmThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="2pmFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <!-- 3:00 PM Block -->
+    <textarea id="3pmMondayBox" class='Monday'placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="3pmTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="3pmWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="3pmThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="3pmFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <!-- 4:00 PM Block -->
+    <textarea id="4pmMondayBox" class='Monday'placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="4pmTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="4pmWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="4pmThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="4pmFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <!-- 5:00 PM Block -->
+    <textarea id="5pmMondayBox" class='Monday'placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="5pmTuesdayBox" class='Tuesday' placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="5pmWedsndayBox" class="Wednsday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="5pmThursdayBox" class="Thursday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
+    <textarea id="5pmFridayBox" class="Friday" placeholder="Add An Event Here!" rows="2" cols="20"></textarea>
     </div>
-   <!--<div class="row">
-      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
-    </div>
-    <div class="row">
-      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
-    </div>
-    <div class="row">
-      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Friday" type="text" placeholder="Enter a event here!"></input>
-    </div>
-    <div class="row">
-      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
-    </div>
-    <div class="row">
-      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
-    </div>
-    <div class="row">
-      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
-    </div>
-    <div class="row">
-      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
-    </div>
-    <div class="row">
-      <input class="col schedulerDays" id="Monday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Tuesday"  type="text" placeholder="Enter a event here!"></input> 
-      <input class="col schedulerDays" id="Wednsday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Thursday"  type="text" placeholder="Enter a event here!"></input>
-      <input class="col schedulerDays" id="Friday"  type="text" placeholder="Enter a event here!"></input>
-    </div> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="scheduler.js"></script>
