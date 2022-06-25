@@ -73,7 +73,7 @@ function updatingEvent(){
         mondayNewValue.setAttribute('class', 'present')
     }
 }
-//Trying to see if the commits will work
+//Something else here
 //Setting variable that will hold Mondays Storage
 var mondayNineAmStorage = localStorage.getItem("9amMondayStorage")
 var mondayTenAmStorage  = localStorage.getItem("10amMondayStorage") 
